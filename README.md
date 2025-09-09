@@ -1,3 +1,3 @@
 # Code Compiler
 
-Online Code Compiler using backend `compiler.arilak.tech`
+Built using Flutter, backend hosted on `compiler.arilak.tech` using python and flask.
