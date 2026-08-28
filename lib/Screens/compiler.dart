@@ -15,7 +15,7 @@ import 'package:highlight/languages/rust.dart';
 import 'package:highlight/languages/ruby.dart';
 import 'package:highlight/languages/julia.dart';
 
-const String backendUrl = 'https://compiler.arilak.tech/compile';
+const String backendUrl = 'https://compiler.arilak.live/compile';
 
 class CodeCompilerScreen extends StatefulWidget {
   const CodeCompilerScreen({super.key});

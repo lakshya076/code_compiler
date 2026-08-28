@@ -53,7 +53,7 @@ This app allows you to run code in 8 different programming languages instantly, 
 
 ## Setting Up Custom Backend
 
-By default, the Flutter application is configured to run against the production endpoint: `https://compiler.arilak.tech/compile`. 
+By default, the Flutter application is configured to run against the production endpoint: `https://compiler.arilak.live/compile`. 
 
 If you want to host your own backend instance on your local machine or a homelab server, follow this guide:
 
@@ -78,7 +78,7 @@ To direct your Flutter application to your new backend server, modify the global
 1. Open `lib/Screens/compiler.dart`
 2. Locate and replace the backendUrl from:
    ```dart
-   const String backendUrl = 'https://compiler.arilak.tech/compile';
+   const String backendUrl = 'https://compiler.arilak.live/compile';
    ```
    to
    
